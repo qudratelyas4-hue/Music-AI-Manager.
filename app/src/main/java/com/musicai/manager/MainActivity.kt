@@ -1,4 +1,4 @@
-package com.musicai.manager
+package com.musicaimanager
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
