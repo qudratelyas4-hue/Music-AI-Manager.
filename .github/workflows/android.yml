@@ -29,7 +29,7 @@ steps:
       gradle-version: '8.9'
 
   - name: Build Debug APK
-    run: gradle :app:assembleDebug
+    run: gradle assembleDebug
 
   - name: Show signing fingerprints
     run: gradle :app:signingReport
